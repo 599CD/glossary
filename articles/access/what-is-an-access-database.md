@@ -1,3 +1,9 @@
+---
+title: What is a Microsoft Access Database?
+description: In this tutorial, you will learn what databases are, in general, and what Microsoft Access is, specifically.
+author: alexhedley
+---
+
 # What is a Microsoft Access Database?
 
 Learn all about databases and Access.
