@@ -31,6 +31,18 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "articles/access/TEMPLATE.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/access/TEMPLATE.html",
+          "hash": "R3BDlDPAR/jFzdz2kJb+1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Resource",
       "source_relative_path": "articles/access/images/what-is-a-database.jpg",
       "output": {
@@ -84,6 +96,72 @@
         ".html": {
           "relative_path": "articles/html/intro.html",
           "hash": "ecQ035ipOKm8UlewMJbm/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/16/Access_2007.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/16/Access_2007.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/16/Access_2013.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/16/Access_2013.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/16/Form.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/16/Form.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/16/Query.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/16/Query.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/16/VBA.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/16/VBA.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/MagnifyingGlass.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/MagnifyingGlass.png"
         }
       },
       "is_incremental": false,
@@ -213,17 +291,17 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 10,
-          "skipped_file_count": 0
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 11,
           "skipped_file_count": 0
         }
       }
