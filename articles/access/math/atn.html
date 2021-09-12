@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Abs | 599CD </title>
+    <title>Atn | 599CD </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Abs | 599CD ">
+    <meta name="title" content="Atn | 599CD ">
     <meta name="generator" content="docfx 2.45.1.0">
     
     <link rel="shortcut icon" href="../../../images/favicon.ico">
@@ -67,44 +67,61 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="abs">Abs</h1>
+<h1 id="atn">Atn</h1>
 
-<p>Using the Abs Function</p>
-<p>In this tutorial you will learn how to use the Abs Function.</p>
+<p>Using the Atn Function</p>
+<p>In this tutorial you will learn how to use the Atn Function.</p>
 <blockquote>
-<p>Abs(number)</p>
+<p>The <code>Atn</code> function returns a Double specifying the arctangent of an angle.</p>
 </blockquote>
 <blockquote>
-<p>The required <em>number</em> argument can be any valid numeric expression. If <em>number</em> contains Null, <strong>Null</strong> is returned; if it is an uninitialized variable, zero is returned.</p>
+<p><code>=Atn(number)</code></p>
 </blockquote>
+<blockquote>
+<p><em>number</em> any valid number expression that expresses an angle in radians</p>
+</blockquote>
+<p>The Atn function takes the ratio of two sides of a right triangle (number) and returns the corresponding angle in radians. The ratio is the length of the side opposite the angle divided by the length of the side adjacent to the angle.</p>
+<p>The range of the result is pi/2 to pi/2 radians.</p>
+<div class="NOTE">
+<h5>Note</h5>
+</div>
+<p>To convert degrees to radians, multiply degrees by pi/180. To convert radians to degrees, multiply radians by 180/pi.</p>
+<div class="NOTE">
+<h5>Note</h5>
+</div>
+<p>Atn is the inverse trigonometric function of <a href="tan.md">Tan</a>, which takes an angle as its argument and returns the ratio of two sides of a right triangle. Do not confuse Atn with the cotangent, which is the simple inverse of a tangent (1/tangent).</p>
 <blockquote>
 <p>Info from MS</p>
 </blockquote>
 <ul>
-<li><a href="https://docs.microsoft.com/en-us/office/vba/language/reference/user-interface-help/abs-function">Office VBA Reference</a></li>
+<li><a href="https://docs.microsoft.com/en-us/office/vba/language/reference/user-interface-help/atn-function">Office VBA Reference</a></li>
 </ul>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Atn(number)</p>
+<p>The required number argument is a Double or any valid numeric expression.</p>
+</div>
 <hr>
 <p>Function Engine</p>
-<p>In this example we will use -1.</p>
-<p><img src="images/Abs.png" alt="Abs" title="Abs"></p>
-<p>The result is 1.</p>
+<p>In this example we will use 1.</p>
+<p><img src="images/Atn.png" alt="Abs" title="Atn"></p>
+<p>The result is 0.785398163397448.</p>
 <hr>
 <p><img src="../../images/16/Query.png" alt="Query" title="Query"> Query</p>
-<pre><code class="lang-sql">SELECT Abs(-1);
+<pre><code class="lang-sql">SELECT Atn(1);
 </code></pre>
 <p><img src="../../images/16/Form.png" alt="Form" title="Form"> Form</p>
-<pre><code class="lang-vb">=Abs(-1)
+<pre><code class="lang-vb">=Atn(1)
 </code></pre>
 <p><img src="../../images/16/VBA.png" alt="VBA" title="VBA"> VBA</p>
 <pre><code class="lang-vb">Private Sub Form_Load()
-    txtAbs = Abs(-1)
+    txtAtn = Atn(1)
 End Sub
 </code></pre>
 <hr>
 <h2 id="courses">Courses</h2>
 <p><img src="../../images/16/Access_2013.png" alt="Access 2013" title="Access 2013"> <a href="https://www.599cd.com/site/courselist/access2013/expert/x26/">Access Expert 26</a></p>
-<h2 id="seminars">Seminars</h2>
-<p><img src="../../images/16/Access_2007.png" alt="Access 2007" title="Access_2007"> <a href="https://www.599cd.com/site/courselist/seminars/access-sql/access-sql2/">Access 2007 SQL 2</a></p>
+<!-- ## Seminars -->
 <!-- ## Tips / Tech Help
 
 See [this](/tips/access/##/) FREE Tip on X and many others -->
@@ -112,7 +129,7 @@ See [this](/tips/access/##/) FREE Tip on X and many others -->
 
 See [this](/blog/display-article.asp?ID=#) Blog Post on X -->
 <h2 id="magnifying-glass-search"><img src="../../images/MagnifyingGlass.png" alt="Magnifying Glass" title="Magnifying Glass"> Search</h2>
-<p>You can find more about this by <a href="https://www.599cd.com/search/?Q=abs">searching</a> the website.</p>
+<p>You can find more about this by <a href="https://www.599cd.com/search/?Q=atn">searching</a> the website.</p>
 </article>
           </div>
           
