@@ -16,7 +16,7 @@ In this tutorial you will learn how to use the Abs Function.
 
 > Info from MS
 
-[Office VBA Reference](https://docs.microsoft.com/en-us/office/vba/language/reference/user-interface-help/abs-function)
+- [Office VBA Reference](https://docs.microsoft.com/en-us/office/vba/language/reference/user-interface-help/abs-function)
 
 ---
 
@@ -70,4 +70,4 @@ See [this](/blog/display-article.asp?ID=#) Blog Post on X -->
 
 ## ![Magnifying Glass](../../images/MagnifyingGlass.png "Magnifying Glass") Search
 
-You can find more about this by [searching](https://www.599cd.com/search/?Q=#) the website.
+You can find more about this by [searching](https://www.599cd.com/search/?Q=abs) the website.
