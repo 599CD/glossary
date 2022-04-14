@@ -6,9 +6,9 @@ Welcome to the **599CD Glossary of Computer Terms**. This project is brand new, 
 
 Currently you can find:
 
-- [Access](access/intro.md)
-- [Excel](excel/intro.md)
-- [Word](word/intro.md) [Coming Soon...]
-- [Windows](windows/intro.md) [Coming Soon...]
+- ![Access](https://img.shields.io/badge/Microsoft_Access-A4373A?style=for-the-badge&logo=microsoft-access&logoColor=white "Access") [Access](access/intro.md)
+- ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white "Excel") [Excel](excel/intro.md)
+- ![Word](https://img.shields.io/badge/Microsoft_Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white "Word") [Word](word/intro.md) [Coming Soon...]
+- ![MS](https://img.shields.io/badge/Microsoft-666666?style=for-the-badge&logo=microsoft&logoColor=white "MS") [Windows](windows/intro.md) [Coming Soon...]
 - [HTML](html/intro.md)
 <!-- - [PowerPoint](powerpoint/intro.md) [Coming Soon...] -->
